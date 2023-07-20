@@ -1,0 +1,6 @@
+{
+  "java.project.sourcePaths": [
+    "AutomaticModule/src/main/java"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

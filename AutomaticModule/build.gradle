@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'com.thoughtworks.xstream:xstream:1.4.20'
+}
+
+jar {
+  manifest {
+    attributes 'Automatic-Module-Name': 'depanfx.persistence'
+  }
+}
